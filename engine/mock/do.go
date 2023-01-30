@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/prisma/prisma-client-go/engine"
+	"github.com/steebchen/prisma-client-go-1/engine"
 )
 
 func (e *Engine) Do(ctx context.Context, payload interface{}, v interface{}) error {

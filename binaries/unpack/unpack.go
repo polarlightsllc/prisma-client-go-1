@@ -6,9 +6,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/prisma/prisma-client-go/binaries"
-	"github.com/prisma/prisma-client-go/binaries/platform"
-	"github.com/prisma/prisma-client-go/logger"
+	"github.com/steebchen/prisma-client-go-1/binaries"
+	"github.com/steebchen/prisma-client-go-1/binaries/platform"
+	"github.com/steebchen/prisma-client-go-1/logger"
 )
 
 // TODO check checksum after expanding file

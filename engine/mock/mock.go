@@ -3,7 +3,7 @@ package mock
 import (
 	"testing"
 
-	"github.com/prisma/prisma-client-go/runtime/builder"
+	"github.com/steebchen/prisma-client-go-1/runtime/builder"
 )
 
 type Expectation struct {

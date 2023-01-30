@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prisma/prisma-client-go/test"
+	"github.com/steebchen/prisma-client-go-1/test"
 )
 
 type cx = context.Context

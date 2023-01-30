@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prisma/prisma-client-go/engine"
-	"github.com/prisma/prisma-client-go/runtime/builder"
+	"github.com/steebchen/prisma-client-go-1/engine"
+	"github.com/steebchen/prisma-client-go-1/runtime/builder"
 )
 
 type Raw struct {

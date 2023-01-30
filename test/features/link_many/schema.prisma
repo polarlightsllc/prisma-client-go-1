@@ -4,11 +4,11 @@ datasource db {
 }
 
 generator db {
-  provider          = "go run github.com/prisma/prisma-client-go"
+  provider          = "go run github.com/steebchen/prisma-client-go-1"
   output            = "."
   disableGoBinaries = true
   package           = "linkmany"
-  previewFeatures = ["mongoDb"]
+  previewFeatures   = ["mongoDb"]
 }
 
 model User {

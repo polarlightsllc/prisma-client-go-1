@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/prisma/prisma-client-go/runtime/types"
-	"github.com/prisma/prisma-client-go/test"
+	"github.com/steebchen/prisma-client-go-1/runtime/types"
+	"github.com/steebchen/prisma-client-go-1/test"
 )
 
 type cx = context.Context
