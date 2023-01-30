@@ -2,7 +2,7 @@
 // +build e2e
 
 //go:generate sed -n "s|__REPLACE__|$DATA_PROXY_DATABASE_URL|g;w schema.out.prisma" schema.template.prisma
-//go:generate go run github.com/steebchen/prisma-client-go-1 generate --schema schema.out.prisma
+//go:generate go run github.com/polarlightsllc/prisma-client-go-1 generate --schema schema.out.prisma
 
 // This test checks whether the data proxy works with the connection string being hardcoded in the prisma schema
 package db
@@ -16,7 +16,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 const id = "23230653-a467-47b7-aaf9-98d422da3d9e"

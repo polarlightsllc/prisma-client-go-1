@@ -1,4 +1,4 @@
-module github.com/steebchen/prisma-client-go-1
+module github.com/polarlightsllc/prisma-client-go-1
 
 go 1.16
 

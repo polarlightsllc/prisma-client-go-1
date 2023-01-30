@@ -1,7 +1,7 @@
 //go:build e2e
 // +build e2e
 
-//go:generate go run github.com/steebchen/prisma-client-go-1 generate
+//go:generate go run github.com/polarlightsllc/prisma-client-go-1 generate
 
 // This test checks whether the data proxy works with engineType=dataproxy and the schema string
 // being provided via an env var defined in the prisma schema
@@ -16,7 +16,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 const id = "23230653-a467-47b7-aaf9-98d422da3d9e"

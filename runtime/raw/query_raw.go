@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/steebchen/prisma-client-go-1/runtime/builder"
-	"github.com/steebchen/prisma-client-go-1/runtime/transaction"
+	"github.com/polarlightsllc/prisma-client-go-1/runtime/builder"
+	"github.com/polarlightsllc/prisma-client-go-1/runtime/transaction"
 )
 
 func (r Raw) QueryRaw(query string, params ...interface{}) QueryExec {

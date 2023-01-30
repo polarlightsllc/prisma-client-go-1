@@ -6,7 +6,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/steebchen/prisma-client-go-1/binaries"
+	"github.com/polarlightsllc/prisma-client-go-1/binaries"
 )
 
 // TODO go fmt files after creation
@@ -56,7 +56,7 @@ func writeHeader(w io.Writer, pkg, name, platform string) error {
 package %s
 
 import (
-	"github.com/steebchen/prisma-client-go-1/binaries/unpack"
+	"github.com/polarlightsllc/prisma-client-go-1/binaries/unpack"
 )
 
 func init() {

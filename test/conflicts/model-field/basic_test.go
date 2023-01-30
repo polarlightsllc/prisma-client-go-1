@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 func TestConflict(t *testing.T) {

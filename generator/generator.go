@@ -3,9 +3,9 @@ package generator
 import (
 	"os"
 
-	"github.com/steebchen/prisma-client-go-1/generator/ast/dmmf"
-	"github.com/steebchen/prisma-client-go-1/generator/ast/transform"
-	"github.com/steebchen/prisma-client-go-1/generator/types"
+	"github.com/polarlightsllc/prisma-client-go-1/generator/ast/dmmf"
+	"github.com/polarlightsllc/prisma-client-go-1/generator/ast/transform"
+	"github.com/polarlightsllc/prisma-client-go-1/generator/types"
 )
 
 // Root describes the generator output root.

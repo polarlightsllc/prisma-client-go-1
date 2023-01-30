@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/steebchen/prisma-client-go-1/engine"
-	"github.com/steebchen/prisma-client-go-1/runtime/builder"
+	"github.com/polarlightsllc/prisma-client-go-1/engine"
+	"github.com/polarlightsllc/prisma-client-go-1/runtime/builder"
 )
 
 type TX struct {

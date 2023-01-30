@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 func TestTableCasing(t *testing.T) {

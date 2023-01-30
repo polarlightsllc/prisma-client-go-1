@@ -12,9 +12,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/steebchen/prisma-client-go-1/binaries"
-	"github.com/steebchen/prisma-client-go-1/logger"
-	"github.com/steebchen/prisma-client-go-1/runtime/types"
+	"github.com/polarlightsllc/prisma-client-go-1/binaries"
+	"github.com/polarlightsllc/prisma-client-go-1/logger"
+	"github.com/polarlightsllc/prisma-client-go-1/runtime/types"
 )
 
 func NewDataProxyEngine(schema, connectionURL string) *DataProxyEngine {

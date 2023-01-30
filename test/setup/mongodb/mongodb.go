@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/steebchen/prisma-client-go-1/test/cmd"
-	"github.com/steebchen/prisma-client-go-1/test/setup"
+	"github.com/polarlightsllc/prisma-client-go-1/test/cmd"
+	"github.com/polarlightsllc/prisma-client-go-1/test/setup"
 )
 
 const containerName = "go-client-mongodb"

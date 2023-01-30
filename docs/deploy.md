@@ -8,13 +8,13 @@ extra steps.
 
 While this step is not required, we recommend to use [`go generate`](https://blog.golang.org/generate) to simplify
 generating the Prisma Client Go client. To do so, you can just put the following line into a go file, and then run go
-generate so `go run github.com/steebchen/prisma-client-go-1 generate` and any other generate commands you run will get
+generate so `go run github.com/polarlightsllc/prisma-client-go-1 generate` and any other generate commands you run will get
 executed.
 
 Put this line into a Go file in your project, usually in `main.go`:
 
 ```go
-//go:generate go run github.com/steebchen/prisma-client-go-1 generate
+//go:generate go run github.com/polarlightsllc/prisma-client-go-1 generate
 
 func main() {
 // ...
@@ -50,12 +50,12 @@ COPY go.mod go.sum ./
 RUN go mod download
 
 # prefetch the binaries, so that they will be cached and not downloaded on each change
-RUN go run github.com/steebchen/prisma-client-go-1 prefetch
+RUN go run github.com/polarlightsllc/prisma-client-go-1 prefetch
 
 COPY . ./
 
 # generate the Prisma Client Go client
-RUN go run github.com/steebchen/prisma-client-go-1 generate
+RUN go run github.com/polarlightsllc/prisma-client-go-1 generate
 # or, if you use go generate to run the generator, use the following line instead
 # RUN go generate ./...
 

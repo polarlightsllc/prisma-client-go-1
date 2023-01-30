@@ -1,4 +1,4 @@
-{{- /*gotype:github.com/steebchen/prisma-client-go-1/generator.Root*/ -}}
+{{- /*gotype:github.com/polarlightsllc/prisma-client-go-1/generator.Root*/ -}}
 
 var countOutput = []builder.Output{
 	{Name: "count"},

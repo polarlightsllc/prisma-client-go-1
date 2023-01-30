@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 const id = "23230653-a467-47b7-aaf9-98d422da3d9e"

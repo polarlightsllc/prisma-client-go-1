@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/steebchen/prisma-client-go-1/engine"
-	"github.com/steebchen/prisma-client-go-1/logger"
+	"github.com/polarlightsllc/prisma-client-go-1/engine"
+	"github.com/polarlightsllc/prisma-client-go-1/logger"
 )
 
 type Input struct {

@@ -1,4 +1,4 @@
-{{- /*gotype:github.com/steebchen/prisma-client-go-1/generator.Root*/ -}}
+{{- /*gotype:github.com/polarlightsllc/prisma-client-go-1/generator.Root*/ -}}
 
 {{ range $model := $.DMMF.Datamodel.Models }}
 	// {{ $model.Name.GoCase }}Model represents the {{ $model.Name.String }} model and is a wrapper for accessing fields and methods

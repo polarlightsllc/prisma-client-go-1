@@ -5,6 +5,6 @@
 package generator
 
 import (
-	_ "github.com/steebchen/prisma-client-go-1/generator/templates"
-	_ "github.com/steebchen/prisma-client-go-1/generator/templates/actions"
+	_ "github.com/polarlightsllc/prisma-client-go-1/generator/templates"
+	_ "github.com/polarlightsllc/prisma-client-go-1/generator/templates/actions"
 )

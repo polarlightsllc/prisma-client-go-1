@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/steebchen/prisma-client-go-1/test"
+	"github.com/polarlightsllc/prisma-client-go-1/test"
 )
 
 func main() {

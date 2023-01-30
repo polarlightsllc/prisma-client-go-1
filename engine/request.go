@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/steebchen/prisma-client-go-1/logger"
-	"github.com/steebchen/prisma-client-go-1/runtime/types"
+	"github.com/polarlightsllc/prisma-client-go-1/logger"
+	"github.com/polarlightsllc/prisma-client-go-1/runtime/types"
 )
 
 var internalUpdateNotFoundMessage = "Error occurred during query execution: InterpretationError(\"Error for binding '0'\", Some(QueryGraphBuilderError(RecordNotFound(\"Record to update not found.\"))))"

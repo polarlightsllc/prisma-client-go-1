@@ -8,13 +8,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/steebchen/prisma-client-go-1/cli"
-	"github.com/steebchen/prisma-client-go-1/engine"
-	"github.com/steebchen/prisma-client-go-1/test/cmd"
-	"github.com/steebchen/prisma-client-go-1/test/setup/mongodb"
-	"github.com/steebchen/prisma-client-go-1/test/setup/mysql"
-	"github.com/steebchen/prisma-client-go-1/test/setup/postgresql"
-	"github.com/steebchen/prisma-client-go-1/test/setup/sqlite"
+	"github.com/polarlightsllc/prisma-client-go-1/cli"
+	"github.com/polarlightsllc/prisma-client-go-1/engine"
+	"github.com/polarlightsllc/prisma-client-go-1/test/cmd"
+	"github.com/polarlightsllc/prisma-client-go-1/test/setup/mongodb"
+	"github.com/polarlightsllc/prisma-client-go-1/test/setup/mysql"
+	"github.com/polarlightsllc/prisma-client-go-1/test/setup/postgresql"
+	"github.com/polarlightsllc/prisma-client-go-1/test/setup/sqlite"
 )
 
 type Database interface {
