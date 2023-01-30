@@ -27,7 +27,9 @@ func main() {
 
 func setup() {
 	for _, db := range test.Databases {
+		log.Printf("setting up %s...", db.Name())
 		db.Setup()
+		log.Printf("setup %s done", db.Name())
 	}
 
 	time.Sleep(15 * time.Second)
